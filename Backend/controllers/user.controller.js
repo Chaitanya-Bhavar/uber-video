@@ -1,7 +1,7 @@
 const userModel = require('../models/user.model');
 const userService = require('../services/user.service');
 const { validationResult } = require('express-validator');
-const BlackListToken = require("../models/blacklistToken.model");
+const BlackListToken = require("../models/blacklistToken.model"); // ✅ Correct import
 
 module.exports.registerUser = async (req, res, next) => {
 
