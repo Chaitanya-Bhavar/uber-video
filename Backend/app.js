@@ -1,4 +1,9 @@
 const dotenv = require('dotenv');
+
+require("dotenv").config();  // Ensure dotenv is loaded
+console.log("MongoDB URI:", process.env.DB_CONNECT);
+
+
 dotenv.config();
 const express = require('express');
 const cors = require('cors');
