@@ -4,9 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "start": "vite",
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint .",
+    "lint": "eslinst .",
     "preview": "vite preview"
   },
   "dependencies": {
